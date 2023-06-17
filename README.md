@@ -17,7 +17,7 @@ To get a Git project into your build:
 
 ```groovy
 	dependencies {
-	        implementation 'com.github.aandrosov0:jwt-java:Tag'
+	        implementation 'com.github.aandrosov0:jwt-java:master-SNAPSHOT'
 	}
 ```
 
