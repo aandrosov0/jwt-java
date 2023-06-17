@@ -58,7 +58,6 @@ public class Jwt {
 
     @Override
     public String toString() {
-        System.out.println(getPayload());
         Base64.Encoder base64url = Base64.getUrlEncoder();
         String header64 = base64url.withoutPadding().encodeToString(getHeader().getBytes());
         String payload64 = base64url.withoutPadding().encodeToString(getPayload().getBytes());
